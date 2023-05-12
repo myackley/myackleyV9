@@ -5,6 +5,11 @@
 		"area": "header"
 	},
 	{
+		"name": "header-hero",
+		"title": "Header Hero",
+		"area": "header-hero"
+	},
+	{
 		"name": "footer",
 		"title": "Footer",
 		"area": "footer"
