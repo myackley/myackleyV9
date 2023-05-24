@@ -30,8 +30,31 @@ function myackleyV9_setup() {
 
     // Add support for custom menu
 	register_nav_menus( array(
-		'primary'   => __( 'Primary Menu', 'myackleyV9' )
+		'primary'   => __( 'Primary Menu', 'myackleyV9' ),
+        'footer'    => __( 'Footer Menu', 'myackleyV9' )
 	) );
 }
 endif; // myackleyV9_setup
+
 add_action( 'after_setup_theme', 'myackleyV9_setup' );
+
+if ( ! function_exists( 'myackleyV9_styles' ) ) :
+
+function blockline_styles() {
+
+    // Register theme stylesheet.
+    wp_register_style(
+        'myackleyV9-style',
+        get_template_directory_uri() . '/style.css',
+        array(),
+        wp_get_theme()->get( 'Version' )
+    );
+
+    // Enqueue theme stylesheet.
+    wp_enqueue_style( 'myackleyV9-style' );
+
+}
+
+endif;
+
+add_action( 'wp_enqueue_scripts', 'myackleyV9_styles' );
