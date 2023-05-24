@@ -2,15 +2,137 @@
     "$schema": "https://schemas.wp.org/wp/6.1/theme.json",
     "version": 2,
     "settings": {
-        "blocks": {
-            "core/paragraph": {
-                "color": {},
-                "custom": {},
-                "layout": {},
-                "spacing": {},
-                "typography": {}
-            }
+        "appearanceTools": true,
+        "color": {
+
+        },
+        "layout": {
+            "contentSize": "1000px",
+            "wideSize": "1100px"
+        },
+        "spacing": {
+            "units": [
+                "%",
+                "em",
+                "rem",
+                "vh",
+                "vw"
+            ]
+        },
+        "typography": {
+            "customFontSize": true,
+            "fontFamilies": [
+                {
+                    "fontFace": [
+                        {
+                            "fontDisplay": "block",
+                            "fontFamily": "Oswald",
+                            "fontStretch": "normal",
+                            "fontStyle": "normal",
+                            "fontWeight": "300", 
+                            "src": [
+                                "file:./assets/fonts/Oswald/static/Oswald-Light.ttf"
+                            ]
+                        },
+                        {
+                            "fontDisplay": "block",
+                            "fontFamily": "Oswald",
+                            "fontStretch": "normal",
+                            "fontStyle": "normal",
+                            "fontWeight": "400", 
+                            "src": [
+                                "file:./assets/fonts/Oswald/static/Oswald-Regular.ttf"
+                            ]
+                        },
+                        {
+                            "fontDisplay": "block",
+                            "fontFamily": "Oswald",
+                            "fontStretch": "normal",
+                            "fontStyle": "normal",
+                            "fontWeight": "500", 
+                            "src": [
+                                "file:./assets/fonts/Oswald/static/Oswald-Medium.ttf"
+                            ]
+                        },
+                        {
+                            "fontDisplay": "block",
+                            "fontFamily": "Oswald",
+                            "fontStretch": "normal",
+                            "fontStyle": "normal",
+                            "fontWeight": "700", 
+                            "src": [
+                                "file:./assets/fonts/Oswald/static/Oswald-Bold.ttf"
+                            ]
+                        }
+                    ],
+                    "fontFamily": "Oswald",
+                    "name": "Oswald",
+                    "slug": "oswald"
+                },
+                {
+                    "fontFace": [
+                        {
+                            "fontDisplay": "block",
+                            "fontFamily": "Quattrocento",
+                            "fontStretch": "normal",
+                            "fontStyle": "normal",
+                            "fontWeight": "400", 
+                            "src": [
+                                "file:./assets/fonts/Quattrocento/Quattrocento-Regular.ttf"
+                            ]
+                        },
+                        {
+                            "fontDisplay": "block",
+                            "fontFamily": "Quattrocento",
+                            "fontStretch": "normal",
+                            "fontStyle": "normal",
+                            "fontWeight": "700", 
+                            "src": [
+                                "file:./assets/fonts/Quattrocento/Quattrocento-Bold.ttf"
+                            ]
+                        }
+                    ],
+                    "fontFamily": "Quattrocento",
+                    "name": "Quattrocento",
+                    "slug": "quattrocento"
+                }
+            ],
+            "fontSizes": [
+                {
+                    "name": "Extra Small",
+                    "size": "0.8rem",
+                    "slug": "small"
+                },
+                {
+                    "name": "Small",
+                    "size": "1rem",
+                    "slug": "small"
+                },
+                {
+                    "name": "Medium",
+                    "size": "1.3rem",
+                    "slug": "medium"
+                },
+                {
+                    "name": "Heading 1",
+                    "size": "2rem",
+                    "slug": "heading1"
+                },
+                {
+                    "name": "Heading 2",
+                    "size": "1.75rem",
+                    "slug": "heading2"
+                },
+                {
+                    "name": "Heading 3",
+                    "size": "1.5rem",
+                    "slug": "heading3"
+                }
+            ]
         }
+    },
+    "styles": {
+
     },
     "templateParts": [
         {
