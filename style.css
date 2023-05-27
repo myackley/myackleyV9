@@ -12,3 +12,7 @@ License URI: None
 Text Domain: myackleyV9
 Tags: custom-colors, custom-menu, custom-logo, featured-images, full-site-editing, block-patterns, wide-blocks, block-styles, blog, portfolio
 */
+
+html {
+    height: 100%;
+}
