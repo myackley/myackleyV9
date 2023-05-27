@@ -120,19 +120,106 @@
                 },
                 {
                     "name": "Heading 2",
-                    "size": "1.75rem",
+                    "size": "1.85rem",
                     "slug": "heading2"
                 },
                 {
                     "name": "Heading 3",
-                    "size": "1.5rem",
+                    "size": "1.65rem",
                     "slug": "heading3"
+                },
+                {
+                    "name": "Heading 4",
+                    "size": "1.5rem",
+                    "slug": "heading4"
+                },
+                {
+                    "name": "Heading 5",
+                    "size": "1.35rem",
+                    "slug": "heading5"
+                },
+                {
+                    "name": "Heading 6",
+                    "size": "1.15rem",
+                    "slug": "heading6"
                 }
             ]
         }
     },
     "styles": {
-
+        "elements": {
+			"h1": {
+				"typography": {
+					"fontFamily": "var(--wp--preset--font-family--oswald)",
+					"fontSize": "var(--wp--preset--font-size--heading1)",
+					"lineHeight": "normal"
+				}
+			},
+			"h2": {
+				"typography": {
+					"fontFamily": "var(--wp--preset--font-family--oswald)",
+					"fontSize": "var(--wp--preset--font-size--heading2)",
+					"lineHeight": "normal"
+				}
+			},
+			"h3": {
+				"typography": {
+					"fontFamily": "var(--wp--preset--font-family--oswald)",
+					"fontSize": "var(--wp--preset--font-size--heading3)",
+					"lineHeight": "normal"
+				}
+			},
+			"h4": {
+				"typography": {
+					"fontFamily": "var(--wp--preset--font-family--oswald)",
+					"fontSize": "var(--wp--preset--font-size--heading4)",
+					"lineHeight": "normal"
+				}
+			},
+			"h5": {
+				"typography": {
+					"fontFamily": "var(--wp--preset--font-family--oswald)",
+					"fontSize": "var(--wp--preset--font-size--heading5)",
+					"lineHeight": "normal"
+				}
+			},
+			"h6": {
+				"typography": {
+					"fontFamily": "var(--wp--preset--font-family--oswald)",
+					"fontSize": "var(--wp--preset--font-size--heading6)",
+					"lineHeight": "normal"
+				}
+			},
+			"link": {
+				":active": {
+					"typography": {
+						"textDecoration": "none"
+					}
+				},
+				":focus": {
+					"typography": {
+						"textDecoration": "none"
+					}
+				},
+				":hover": {
+					"color": {
+						"text": "var(--wp--preset--color--accent)"
+					},
+					"typography": {
+						"textDecoration": "none"
+					}
+				},
+				"color": {
+					"text": "var:preset|color|foreground"
+				}
+				
+			}
+		},
+		"typography": {
+			"fontFamily": "var(--wp--preset--font-family--quattrocento)",
+			"fontSize": "var(--wp--preset--font-size--normal)",
+			"lineHeight": "normal"
+		}
     },
     "templateParts": [
         {
