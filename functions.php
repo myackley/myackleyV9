@@ -40,20 +40,20 @@ add_action( 'after_setup_theme', 'myackleyV9_setup' );
 
 if ( ! function_exists( 'myackleyV9_styles' ) ) :
 
-function blockline_styles() {
+    function myackleyV9_styles() {
 
-    // Register theme stylesheet.
-    wp_register_style(
-        'myackleyV9-style',
-        get_template_directory_uri() . '/style.css',
-        array(),
-        wp_get_theme()->get( 'Version' )
-    );
+        // Register theme stylesheet.
+        wp_register_style(
+            'myackleyV9-style',
+            get_template_directory_uri() . '/style.css',
+            array(),
+            wp_get_theme()->get( 'Version' )
+        );
 
-    // Enqueue theme stylesheet.
-    wp_enqueue_style( 'myackleyV9-style' );
+        // Enqueue theme stylesheet.
+        wp_enqueue_style( 'myackleyV9-style' );
 
-}
+    }
 
 endif;
 
