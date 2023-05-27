@@ -147,6 +147,16 @@
         }
     },
     "styles": {
+        "blocks": {
+            "core/navigation": {
+				"typography": {
+					"fontSize": "var(--wp--preset--font-size--normal)",
+                    "fontFamily": "var(--wp--preset--font-family--oswald)",
+					"fontWeight": "400",
+					"lineHeight": "normal"
+				}
+			}
+        },
         "elements": {
 			"h1": {
 				"typography": {
