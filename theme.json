@@ -151,7 +151,7 @@
             "core/navigation": {
 				"typography": {
 					"fontSize": "var(--wp--preset--font-size--normal)",
-                    "fontFamily": "var(--wp--preset--font-family--oswald)",
+                    "fontFamily": "var(--wp--preset--font-family--montserrat)",
 					"fontWeight": "400",
 					"lineHeight": "normal"
 				}
@@ -160,42 +160,42 @@
         "elements": {
 			"h1": {
 				"typography": {
-					"fontFamily": "var(--wp--preset--font-family--oswald)",
+					"fontFamily": "var(--wp--preset--font-family--montserrat)",
 					"fontSize": "var(--wp--preset--font-size--heading1)",
 					"lineHeight": "normal"
 				}
 			},
 			"h2": {
 				"typography": {
-					"fontFamily": "var(--wp--preset--font-family--oswald)",
+					"fontFamily": "var(--wp--preset--font-family--montserrat)",
 					"fontSize": "var(--wp--preset--font-size--heading2)",
 					"lineHeight": "normal"
 				}
 			},
 			"h3": {
 				"typography": {
-					"fontFamily": "var(--wp--preset--font-family--oswald)",
+					"fontFamily": "var(--wp--preset--font-family--montserrat)",
 					"fontSize": "var(--wp--preset--font-size--heading3)",
 					"lineHeight": "normal"
 				}
 			},
 			"h4": {
 				"typography": {
-					"fontFamily": "var(--wp--preset--font-family--oswald)",
+					"fontFamily": "var(--wp--preset--font-family--montserrat)",
 					"fontSize": "var(--wp--preset--font-size--heading4)",
 					"lineHeight": "normal"
 				}
 			},
 			"h5": {
 				"typography": {
-					"fontFamily": "var(--wp--preset--font-family--oswald)",
+					"fontFamily": "var(--wp--preset--font-family--montserrat)",
 					"fontSize": "var(--wp--preset--font-size--heading5)",
 					"lineHeight": "normal"
 				}
 			},
 			"h6": {
 				"typography": {
-					"fontFamily": "var(--wp--preset--font-family--oswald)",
+					"fontFamily": "var(--wp--preset--font-family--montserrat)",
 					"fontSize": "var(--wp--preset--font-size--heading6)",
 					"lineHeight": "normal"
 				}
@@ -226,7 +226,7 @@
 			}
 		},
 		"typography": {
-			"fontFamily": "var(--wp--preset--font-family--quattrocento)",
+			"fontFamily": "var(--wp--preset--font-family--hind)",
 			"fontSize": "var(--wp--preset--font-size--normal)",
 			"lineHeight": "normal"
 		}
