@@ -58,3 +58,27 @@ if ( ! function_exists( 'myackleyV9_styles' ) ) :
 endif;
 
 add_action( 'wp_enqueue_scripts', 'myackleyV9_styles' );
+
+function myackleyV9_register_pattern_categories() {
+
+    if ( function_exists( 'register_block_pattern_category' ) ) {
+
+        register_block_pattern_category(
+
+            'page-content',
+
+            array(
+
+                'label' => __( 'Page Content', 'myackleyV9' ),
+
+                'description' => __( 'Patterns with starter content for page content', 'myackleyV9' ),
+
+            )
+
+        );
+
+    }
+
+}
+
+add_action( 'init', 'myackleyV9_register_pattern_categories' );
